@@ -1,0 +1,22 @@
+.bottomSheet.open {
+    transform: translateY(0);
+  }
+
+.overlay.open {
+    transform: translateY(0);
+}
+
+ .container {
+  position: relative;
+  /* overflow: hidden; */
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 200px;
+  background-color: #f8f9f9;
+  transition: transform 0.3s ease-out;
+  transform: translateY(100%);
+  z-index: 10;
+  border-radius: 30px 30px 0 0;
+  /* inset: 0; */
+}
